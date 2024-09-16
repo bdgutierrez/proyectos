@@ -4,8 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>minimal-card</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+        body{
+            background-color: ·#f9f9f9;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            font-family: "Sora", sans-serif;
+
+        }
+        .container-card{
+            
+            height: auto;
+            width: 368px;
+            background-color: white;
+            border-radius:16px 16px 20px 20px;
+            box-shadow: 20px 30px 100px 20px rgba(17, 23, 41, 0.05);
+        }
+        .container-img{
+            margin-top: 16px;
+            height: 152px;
+            width: 336px;
+            margin-left: 16px;
+           
+            border-radius: 16px;
+        }
+        .container-img img{
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+        }
+        .button-card{
+            margin-left: 16px;
+            margin-top: 16px;
+            border-radius: 16px;
+            background-color: #E6D6FC;
+            color: #883AE1;
+            border: none;
+           font-size: 12px;
+            height: 18px;
+            
+        }
+        .container-txt{
+            margin: 16px;
+            
+        }
+        .container-txt h2{
+            font-size: 1.125rem;
+            color: #20293A;
+        }
+        .txt{
+            margin-top: 6px;
+           font-size: 0.875rem;
+           color: #6C727F;
+           
+        }
+        .footer-card{
+           margin-top: 20px;
+            border-top: 1px solid #E5EAF0;
+            margin-bottom: 20px;
+        }
+        .footer-card p{
+            margin: 16px;
+            color: #6C727F;
+            font-size: 0.75rem;
+        }
+        
+    </style>
 </head>
 <body>
+    <div class="container-card">
+<div class="container-img">
+<img src="dccl--responsive-mini-blog-card/cactus_img.jpg">
+</div>
+<button class="button-card">Design</button>
+
+<div class="container-txt">
+    <h2 class="title">Embracing Minimalism</h2>
+    <p class="txt">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+    <div class="line"></div>
     
+</div>
+    <div class="footer-card">
+        <p>Annie Spratt</p>
+    </div>
+    </div>
 </body>
 </html>
